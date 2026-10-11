@@ -1,6 +1,7 @@
 {
   "name": "@red-cup-engineering/function-movement-service",
   "version": "0.1.0",
+  "private": true,
   "type": "module",
   "description": "One-effect client cell that invokes the independently deployed function-movement provider.",
   "exports": {
@@ -10,7 +11,8 @@
   },
   "scripts": {
     "check": "node --check src/cloud-client.mjs",
-    "test": "node --test test/cloud-client.test.mjs"
+    "test": "node --test test/cloud-client.test.mjs",
+    "verify": "npm run check && npm test"
   },
   "engines": {
     "node": ">=22"
