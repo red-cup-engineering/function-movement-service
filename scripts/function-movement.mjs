@@ -1,4 +1,4 @@
-import { semanticId } from "@red-cup-engineering/computer-content-engineering-services-section/semiotic-content-address";
+import { semanticId } from "@red-cup-engineering/computer-content-address-engineering-services-section/semiotic-content-address";
 
 const identity = (value, label) => {
   if (typeof value !== "string" || value.length === 0 || value.includes("\n")) {
