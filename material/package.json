@@ -4,6 +4,11 @@
   "private": true,
   "type": "module",
   "description": "Content-addressed deterministic function-movement artifact material; it has no transport, custody, observation, or write authority.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/semiotic-computer-system-services-section.git",
+    "directory": "services/semiotic-web-software-services-section/services/semiotic-cloud-services-section/services/function-movement-service/material"
+  },
   "exports": "./src/function-movement.mjs",
   "scripts": {
     "check": "node --check src/function-movement.mjs",
