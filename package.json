@@ -6,8 +6,7 @@
   "description": "One-effect client cell that invokes the independently deployed function-movement provider.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/semiotic-computer-system-services-section.git",
-    "directory": "services/semiotic-web-software-services-section/services/semiotic-cloud-services-section/services/function-movement-service"
+    "url": "git+https://github.com/red-cup-engineering/function-movement-service.git"
   },
   "exports": {
     ".": "./src/cloud-client.mjs",
