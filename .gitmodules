@@ -1,4 +1,4 @@
-[submodule "material"]
-	path = material
+[submodule "function-movement-material"]
+	path = function-movement-material
 	url = https://github.com/red-cup-engineering/function-movement-material.git
 	branch = main
